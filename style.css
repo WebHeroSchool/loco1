@@ -181,6 +181,7 @@ html, body {
 .first-page-main__img {
 	width: 49%;
 	height: 49%;
+	margin-right: 20px;
 }
 
 .first-page__btn-next {
@@ -279,14 +280,14 @@ html, body {
 	padding: 0 10px;
 }
 
-.second-page__content{
+.second-page__content {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	margin: 0 auto;
 }
 
-.second-page__info{
+.second-page__info {
 	margin: 168px 0 120px 108px;
 	display: -webkit-box;
 	display: -ms-flexbox;
