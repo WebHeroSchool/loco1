@@ -1,0 +1,240 @@
+@media only screen  and (min-width: 1660px) {
+
+    .header-blackside__logo {
+        font-size: 50px;
+    }
+
+    .header__lang {
+        font-size: 40px;
+    }
+    
+    .header__lang-arrow {
+        width: 25px;
+        height: 15px;
+    }
+    .header__menu-burger {
+        width: 125px;
+        height: 125px;
+    }
+    .burger-line {
+        width: 50px;
+        height: 6px;
+        margin-bottom: 8px;
+    }
+    
+    .main-text-wrap {
+        height: 95%;
+	    width: 38%; 
+    }
+    
+    .main-text__title {
+        font-size: 90px;
+        line-height: 90px;
+        white-space: pre-line;
+        text-align: left;
+    }
+
+    .paragraph {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .first-page__btn-next {
+       font-size: 20px;
+    }
+
+    .page-link {
+        font-size: 20px;
+    }
+
+    .first-page__arrow {
+        width: 70px;
+    }
+
+    .first-page__socials {
+        width: 12%;
+    }
+
+    .socials__img {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .scrool {
+        width: 55px;
+        height: 65px;
+    }
+    
+}
+
+@media screen and (max-width: 1366px) {
+    .first-page-wrap {
+        background: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, white));
+        background: linear-gradient(to right, black 30%, white 30%);
+    }
+
+    .header-blackside {
+        width: 20%;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+    .first-page-wrap {
+        background: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, white));
+        background: linear-gradient(to right, black 30%, white 30%); 
+    }
+
+    .header-blackside {
+        width: 20%;
+    }
+
+    .first-page-main__img {
+        width: 35%;  
+    }
+
+    .socials__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .first-page__socials {  
+        width: 12%; 
+    }
+
+    .first-page__btn-next {
+        padding: 0 30px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    .first-page-main__img {
+        width: 38%;
+    }
+
+    .main-text__title {
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .socials__img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .first-page__btn-next {
+        padding: 0 25px;  
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .header-blackside__logo {
+        font-size: 24px;
+    }
+
+    .first-page-main__img {
+        width: 38%;
+        margin-right: 20px;
+    }
+
+    .main-text__title {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    .first-page__btn-next {
+        padding: 0 20px;
+        font-size: 10px;
+    }
+
+    .page-link {
+        font-size: 10px;
+    }
+
+    .first-page__arrow {
+        display: none;
+    }
+
+    .socials__img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .scrool {
+        width: 30px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-blackside__language,
+    .first-page-main,
+    .first-page__socials-wrap,
+    .first-page-main__img,
+    .main-text-wrap{
+        display: none;
+    }
+
+    
+    .header {
+        background: #fff;
+    }
+
+    .header-blackside__logo {
+        color: #000;
+        font-size: 30px;
+    }
+    
+    .header__menu-burger {
+        height: 70px;
+        width: 70px;
+    }
+
+    .burger-line {
+        width: 26.4px;
+        height: 2.61px;
+
+    }
+    
+    .first-page-content {
+        background: url(./images/pete-bellis-432867-unsplash-mob.png) center no-repeat;
+        background-size: cover;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; 
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+
+    .first-page-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .first-page-mobile__title {
+        background: transparent;
+        border: 0;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 51px;
+        margin: 0 auto;
+        white-space: pre-line;
+        text-align: left;
+    }
+
+    .first-page-mobile__arrow {
+        text-align: center;
+        padding: 20px 0;
+    }
+}
