@@ -21,6 +21,10 @@
         height: 6px;
         margin-bottom: 8px;
     }
+
+    .extra {
+        height: 10%;
+    }
     
     .main-text-wrap {
         height: 95%;
@@ -65,6 +69,37 @@
         height: 65px;
     }
     
+    .second-page__img-bags {
+        width: 50%;
+    }
+
+    .second-page__title { 
+        font-size: 60px;
+    }
+
+    .second-page__subtitle {
+        font-size: 24px;
+    }
+
+    .color {
+        width: 45px;
+        height: 45px;
+    }
+
+    .second-page__color_pink {
+        width: 55px;
+        height: 55px;
+    }
+
+    .second-page__price {
+        font-size: 50px;
+    }
+
+    .value-box-quantity {
+        font-size: 20px;
+    }
+
+    
 }
 
 @media screen and (max-width: 1366px) {
@@ -75,6 +110,10 @@
 
     .header-blackside {
         width: 20%;
+    }
+
+    .second-page__info {
+        height: 75vh;
     }
 
 }
@@ -105,6 +144,19 @@
 
     .first-page__btn-next {
         padding: 0 30px;
+    }
+
+    .second-page__info {
+        height: 70vh;
+        width: 45%;
+    }
+
+    .value-box {
+        padding: 10px;
+    }
+
+    .addtocart {
+        padding: 10px 43px;
     }
     
 }
@@ -167,6 +219,26 @@
         width: 30px;
         height: 40px;
     }
+
+    .second-page__color {
+        width: 50%;
+    }
+
+    .value-box {
+        padding: 5px;
+    }
+
+    .addtocart {
+        padding: 5px 20px;
+    }
+
+    .second-page__arrow {
+        width: 180px;
+    }
+
+    .second-page__info {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -174,7 +246,7 @@
     .first-page-main,
     .first-page__socials-wrap,
     .first-page-main__img,
-    .main-text-wrap{
+    .main-text-wrap {
         display: none;
     }
 
@@ -236,5 +308,143 @@
     .first-page-mobile__arrow {
         text-align: center;
         padding: 20px 0;
+    }
+
+    .second-page__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+
+    }
+
+    .second-page__title { 
+        font-size: 30px;
+        line-height: 20px;
+    }
+
+    .second-page__subtitle {
+        font-size: 20px;
+        line-height: 10px;
+        letter-spacing: 0.07em;
+    }
+
+    .second-page__info-box .paragraph {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .color {
+        width: 28px;
+        height: 28px;
+    }
+
+    .second-page__color_pink {
+        width: 35px;
+        height: 35px;
+    }
+
+    .second-page__price {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    
+    .second-page__img-bags,
+    .second-page__link,
+    .value-box {
+        display: none;
+    }
+
+    .second-page__img-mobbag {
+        display: block;
+        width: 60%;
+    }
+
+    .second-page__info {
+        width: 70%;
+        height: 50vh;
+    }
+
+    .second-page__info-box {
+        height: 100%;
+        padding: 16px 30px;
+    }
+
+    .addtocart-box {
+        width: 100%;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .addtocart {
+        padding: 10px 34px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .second-page__info {
+        width: 80%;
+        height: 50vh;
+        max-height: 380px;
+        
+    }
+
+    .second-page__info-box {
+        height: 100%;
+        padding: 16px 30px;
+    }
+    
+    .second-page__title { 
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .second-page__subtitle {
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.07em;
+    }
+
+    .second-page__info-box .paragraph {
+        font-size: 9px;
+        line-height: 13px;
+    }
+
+    .second-page__color {
+        width: 55%;
+    }
+
+    .color {
+        width: 23px;
+        height: 23px;
+    }
+
+    .second-page__color_pink {
+        width: 29px;
+        height: 29px;
+    }
+
+    .second-page__price {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .second-page__img-bags,
+    .second-page__link,
+    .value-box {
+        display: none;
+    }
+
+    .second-page__img-mobbag {
+        display: block;
+        width: 60%;
+        min-width: 350px;
     }
 }
