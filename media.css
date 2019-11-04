@@ -99,7 +99,14 @@
         font-size: 20px;
     }
 
+    .third-page__title {
+        font-size: 60px;
+    }
     
+    .third-page__subtitle {
+        font-size: 24px;
+    }
+
 }
 
 @media screen and (max-width: 1366px) {
@@ -114,6 +121,10 @@
 
     .second-page__info {
         height: 75vh;
+    }
+
+    .third-page__info {
+        height: 55vh; 
     }
 
 }
@@ -158,6 +169,31 @@
     .addtocart {
         padding: 10px 43px;
     }
+
+    .third-page__info {
+        height: 40vh; 
+    }
+
+    .third-page__info-box .value-box {
+        display: none;
+    }
+
+    .third-page__info-box .addtocart-box {
+        width: 100%;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .third-page__title {
+        font-size: 30px;
+    }
+    
+    .third-page__subtitle {
+        font-size: 12px;
+    }
+
+
     
 }
 
@@ -239,9 +275,18 @@
     .second-page__info {
         width: 50%;
     }
+
+    .third-page__info {
+        height: 35vh;
+    }
+
+    .third-page__info-box {
+        padding: 20px;
+    }   
 }
 
 @media screen and (max-width: 768px) {
+
     .header-blackside__language,
     .first-page-main,
     .first-page__socials-wrap,
@@ -385,6 +430,56 @@
         font-size: 13px;
         line-height: 0;
     }
+
+    .third-page {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .third-page__img {
+        width: 95%;
+        transform: translateY(15%);
+        -webkit-transform: translateY(15%);
+        -moz-transform: translateY(15%);
+        -ms-transform: translateY(15%);
+        -o-transform: translateY(15%);
+}
+
+    .third-page__info {
+        width: 70%;
+    }
+
+    .third-page__link {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+    }
+
+    .third-page__link .btn-other {
+        white-space: pre-line;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .third-page__arrow-one {
+        display: none;
+    }
+
+    .third-page__arrow-two {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 560px) {
@@ -447,4 +542,10 @@
         width: 60%;
         min-width: 350px;
     }
+
+    .third-page__info {
+        width: 80%;
+    }
+
+   
 }
