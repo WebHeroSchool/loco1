@@ -4,11 +4,14 @@
   		<meta charset="utf-8">
 		<title>LOCO project</title>
 		<link rel="stylesheet" href="./fonts.css">
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="./media.css">
+    	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	</head>
 	<body>
-		<div class="first-page-wrap">
-			<header class="header">
-				<div class="header-content">
+		<div class="website-wrap">
+			<div class="first-page-wrap">
+				<header class="header">
 					<div class="header-blackside">
 						<a href="#" class="header-blackside__logo">loco</a>
 						<div class="header-blackside__language">
@@ -21,21 +24,22 @@
 							<div class="burger-line"></div>
 						</div>
 					</div>
-				</div>
-			</header>
-	 		<div class="first-page">
+				</header>
+				
 				<div class="first-page-content">
+					<span class="extra"></span>
 					<div class="first-page-main">
 						<img class="first-page-main__img" src="images/pete-bellis-432867-unsplash.png" alt="Девушка с рюкзаком">
 						<div class="main-text-wrap">
-							<div class="main-text">
-								<h1 class="main-text__title">Новая коллекция</h1>
-								<p class="main-text__text paragraph">Бесплатная доставка включена. 
-									Предложение действует на сайте loco.com и в магазинах до 18.09.2018. 
-									Для получения скидки в магазинах предъявите скриншот данного предложения. 
-									В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
-								</p>
-							</div>
+							<h1 class="main-text__title">
+								Новая 
+								коллекция
+							</h1>
+							<p class="main-text__text paragraph">Бесплатная доставка включена. 
+								Предложение действует на сайте loco.com и в магазинах до 18.09.2018. 
+								Для получения скидки в магазинах предъявите скриншот данного предложения. 
+								В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
+							</p>
 							<div class="first-page__link link">
 								<button class="first-page__btn-next">читать дальше</button>
 								<a href="#" class="page-link btn-other">другие предложения</a>
@@ -52,12 +56,12 @@
 									<img src="images/INST.svg" class="socials__img">
 								</span>
 							</a>
-					  		<a class="social-links" href="#">
+					  	<a class="social-links" href="#">
 								<span class="socials socials__vk">
 									<img  src="images/VK.svg" class="socials__img">
 								</span>
 							</a>
-					  		<a class="social-links" href="#">
+							<a class="social-links" href="#">
 								<span class="socials socials__fb">
 									<img  src="images/FB.svg" class="socials__img">	
 								</span>
@@ -66,25 +70,29 @@
 						<div class="first-page__scrool">	        		
 							<img class="scrool" src="images/scrool.svg">
 						</div>
+					</div>
+					<div class="first-page-mobile">
+						<button class="first-page-mobile__title"> 
+						Новая 
+						коллекция </button>
+						<div class="first-page-mobile__arrow"><img src="images/first-page-mobile-arrow.svg"></div>
 					</div>	
 				</div>
-        	</div>
-		</div>
-		
-		<div class="second-page">
-			<div class="second-page__content">
-			 	<div class="second-page__img">
+			</div>
+			
+			<div class="second-page"> 
+				<div class="second-page__content">
 					<img class="second-page__img-bags" src="images/bags.png" alt="Сумки">
-				</div>
-				<div class="second-page__info">
-					<div class="second-page__info-box"> 
-						<h2 class="second-page__title">Кожаный клатч</h2>
-						<h3 class="second-page__subtitle">осенняя коллекция</h3>
-						<p class="paragraph">Бесплатная доставка включена. 
-                            Предложение действует на сайте loco.com и в магазинах до 18.09.2018. 
-                            Для получения скидки в магазинах предъявите скриншот данного предложения. 
-                            В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
-                        </p>
+					<img class="second-page__img-mobbag" src="images/bagmob.png" alt="Сумки">
+					<div class="second-page__info">
+						<div class="second-page__info-box"> 
+							<h2 class="second-page__title">Кожаный клатч</h2>
+							<h3 class="second-page__subtitle">осенняя коллекция</h3>
+							<p class="paragraph">Бесплатная доставка включена. 
+								Предложение действует на сайте loco.com и в магазинах до 18.09.2018. 
+								Для получения скидки в магазинах предъявите скриншот данного предложения. 
+								В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
+							</p>
 						<div class="second-page__color-price">
 							<div class="second-page__color">
 								<span class="color second-page__color_grey"></span>
@@ -94,34 +102,33 @@
 							</div>
 							<span class="second-page__price">1990₽</span> 
 				 		</div>
-						<div class="addtocart-box">
-							<div class="border-box value-box"> 
-								<div class="value-box-quantity"><button class="value-box-btn">-</button></div>
-								<div class="value-box-quantity">1</div>
-								<div class="value-box-quantity"><button class="value-box-btn">+</button></div>
-							</div>
-							<div class="border-box addtocart"> 
-					  			<a href="#" class="page-link">добавить в корзину</a>
+							<div class="addtocart-box">
+								<div class="border-box value-box"> 
+									<div class="value-box-quantity"><button class="value-box-btn">-</button></div>
+									<div class="value-box-quantity">1</div>
+									<div class="value-box-quantity"><button class="value-box-btn">+</button></div>
+								</div>
+								<div class="border-box addtocart"> 
+									<a href="#" class="page-link">добавить в корзину</a>
+								</div>
 							</div>
 						</div>
+						<div class="second-page__link">
+							<a href="#" class="page-link btn-other">другие товары на loco.com</a>
+							<img src="images/second-page-arrow.svg" class="second-page__arrow">
+						</div>	
 					</div>
-					<div class="second-page__link">
-						<a href="#" class="page-link btn-other">другие товары на loco.com</a>
-						<img src="images/second-page-arrow.svg" class="second-page__arrow">
-					</div>	
 				</div>
 			</div>
-        </div>
-        
-		<div class="third-page"> 
-			<div class="third-page__content">
+			
+			<div class="third-page"> 
 				<img class="third-page__img" src="images/totallook.png" alt="Total Look">
 				<div class="third-page__info">
 					<div class="third-page__info-box">
 						<h2 class="third-page__title">Serene Total Look</h2>
 						<h3 class="third-page__subtitle">осенняя коллекция</h3>
 						<p class="paragraph"> Джинсы, свитер, обувь.
-						 В комплект также входит пакет ароматного чая и кружка.
+							В комплект также входит пакет ароматного чая и кружка.
 						</p> 
 						<div class="addtocart-box">
 							<div class="border-box value-box"> 
@@ -135,11 +142,15 @@
 						</div>	
 					</div>
 					<div class="third-page__link ">
-						<a href="#" class="page-link btn-other">другие товары на loco.com</a>
-						<img class="third-page__arrow-one" src="images/third-page-arrow-one.svg">	
+						<a href="#" class="page-link btn-other">
+							другие товары 
+							на loco.com
+						</a>
+						<img class="third-page__arrow-one" src="images/third-page-arrow-one.svg">
+						<img class="third-page__arrow-two" src="images/third-page-arrow-two.svg">	
 					</div>
-		  		</div>
+				</div>
 			</div>
-		</div>
+		</div>	
 	</body>
 </html>
