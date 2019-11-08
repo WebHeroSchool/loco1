@@ -11,7 +11,7 @@ html, body {
 .website-wrap {
 	margin: 0 auto;
 	min-width: 360px;
-	max-width: 2000px;
+	max-width: 1440px;
 }
 
 .first-page-wrap,
@@ -162,7 +162,7 @@ html, body {
 
 .main-text-wrap {
 	height: 85%;
-	width: 38%; 
+	width: 32.5%; 
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -501,8 +501,8 @@ html, body {
 }
 
 .third-page {
-	background: -webkit-gradient(linear, left top, right top, color-stop(27%, #EBE3D8), color-stop(27%, black), color-stop(32%, black), color-stop(32%, #EBE3D8));
-	background: linear-gradient(to right, #EBE3D8 27%, black 27%, black 32%, #EBE3D8 32%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(27%, #EBE3D8), color-stop(25%, black), color-stop(33%, black), color-stop(32%, #EBE3D8));
+	background: linear-gradient(to right, #EBE3D8 27%, black 25%, black 33%, #EBE3D8 32%);
 	height: 100vh;
 	display: -webkit-box;
 	display: -ms-flexbox;

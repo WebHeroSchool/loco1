@@ -1,114 +1,3 @@
-@media only screen  and (min-width: 1660px) {
-
-    .header-blackside__logo {
-        font-size: 50px;
-    }
-
-    .header__lang {
-        font-size: 40px;
-    }
-    
-    .header__lang-arrow {
-        width: 25px;
-        height: 15px;
-    }
-    .header__menu-burger {
-        width: 125px;
-        height: 125px;
-    }
-    .burger-line {
-        width: 50px;
-        height: 6px;
-        margin-bottom: 8px;
-    }
-
-    .extra {
-        height: 10%;
-    }
-    
-    .main-text-wrap {
-        height: 95%;
-	    width: 38%; 
-    }
-    
-    .main-text__title {
-        font-size: 90px;
-        line-height: 90px;
-        white-space: pre-line;
-        text-align: left;
-    }
-
-    .paragraph {
-        font-size: 25px;
-        line-height: 1.5;
-    }
-
-    .first-page__btn-next {
-       font-size: 20px;
-    }
-
-    .page-link {
-        font-size: 20px;
-    }
-
-    .first-page__arrow {
-        width: 70px;
-    }
-
-    .first-page__socials {
-        width: 12%;
-    }
-
-    .socials__img {
-        width: 55px;
-        height: 55px;
-    }
-    
-    .scrool {
-        width: 55px;
-        height: 65px;
-    }
-    
-    .second-page__img-bags {
-        width: 50%;
-    }
-
-    .second-page__title { 
-        font-size: 60px;
-    }
-
-    .second-page__subtitle {
-        font-size: 24px;
-    }
-
-    .color {
-        width: 45px;
-        height: 45px;
-    }
-
-    .second-page__color_pink {
-        width: 55px;
-        height: 55px;
-    }
-
-    .second-page__price {
-        font-size: 50px;
-    }
-
-    .value-box-quantity {
-        font-size: 20px;
-    }
-
-    .third-page__title {
-        font-size: 60px;
-    }
-    
-    .third-page__subtitle {
-        font-size: 24px;
-    }
-
-}
-
 @media screen and (max-width: 1366px) {
     .first-page-wrap {
         background: -webkit-gradient(linear, left top, right top, color-stop(30%, black), color-stop(30%, white));
@@ -125,6 +14,10 @@
 
     .third-page__info {
         height: 55vh; 
+    }
+
+    .main-text-wrap {
+        width: 38%;
     }
 
 }
@@ -153,8 +46,8 @@
         width: 12%; 
     }
 
-    .first-page__btn-next {
-        padding: 0 30px;
+    .main-text-wrap {
+        width: 40%;
     }
 
     .second-page__info {
@@ -185,16 +78,15 @@
         
     }
 
-    .third-page__title {
+    .second-page__title,
+    .third-page__title  {
         font-size: 30px;
     }
     
+    .second-page__subtitle,
     .third-page__subtitle {
         font-size: 12px;
-    }
-
-
-    
+    } 
 }
 
 @media screen and (max-width: 1024px) {
@@ -295,7 +187,6 @@
         display: none;
     }
 
-    
     .header {
         background: #fff;
     }
@@ -313,7 +204,6 @@
     .burger-line {
         width: 26.4px;
         height: 2.61px;
-
     }
     
     .first-page-content {
@@ -365,18 +255,20 @@
 
     }
 
-    .second-page__title { 
+    .second-page__title,
+    .third-page__title  { 
         font-size: 30px;
         line-height: 20px;
     }
 
-    .second-page__subtitle {
-        font-size: 20px;
+    .second-page__subtitle, 
+    .third-page__subtitle  {
+        font-size: 12px;
         line-height: 10px;
         letter-spacing: 0.07em;
     }
 
-    .second-page__info-box .paragraph {
+    .paragraph {
         font-size: 14px;
         line-height: 18px;
     }
@@ -432,6 +324,8 @@
     }
 
     .third-page {
+        background: -webkit-gradient(linear, left top, right top, color-stop(27%, #EBE3D8), color-stop(25%, black), color-stop(35%, black), color-stop(32%, #EBE3D8));
+        background: linear-gradient(to right, #EBE3D8 27%, black 25%, black 35%, #EBE3D8 32%);
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -496,18 +390,20 @@
         padding: 16px 30px;
     }
     
-    .second-page__title { 
+    .second-page__title,
+    .third-page__title  { 
         font-size: 20px;
         line-height: 20px;
     }
 
-    .second-page__subtitle {
+    .second-page__subtitle, 
+    .third-page__subtitle  {
         font-size: 10px;
         line-height: 10px;
         letter-spacing: 0.07em;
     }
 
-    .second-page__info-box .paragraph {
+    .paragraph {
         font-size: 9px;
         line-height: 13px;
     }
